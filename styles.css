@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(29, 27, 27);
+}
+
+p {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    color: ghostwhite;
+  }
+
+#demo{
+cursor: pointer;
+z-index: 10;
+background-color:rgba(29, 27, 27, 0.342);
+  }
+
+.hideDates {
+    display: none;
+}
+.hidden{
+    display: none;
+}
+
+.eggs{
+    display:none;
+    z-index: 1;
+}
+    
+#demo:hover + .hideDates {
+    display: block;
+}
+
+.vertical-center {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+
+  img {
+    max-width: 60vh;
+    height: auto;
+  }
+
+  @media screen and (max-width: 1000px) {
+    p {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0px;
+        color: ghostwhite;
+      }
+  }
