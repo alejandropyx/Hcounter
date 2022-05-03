@@ -28,7 +28,11 @@ $(document).mousemove(function(e) {
     }
 
     if(mouseX>400 && mouseX<500 && mouseY>200 && mouseY<300 && flag){        
-        effect('<img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/b/bf/Captain_America_Civil_War_-_Poster_definitivo.png/revision/latest?cb=20191029195149&path-prefix=es" alt="Girl in a jacket" >');
+        effect('<img src="http://www.shmee.me/wp-content/uploads/2016/05/captain-america-civil-war-promo-art-fight.jpg" alt="Girl in a jacket" >');
+    }
+    
+     if(mouseX>600 && mouseX<700 && mouseY>200 && mouseY<300 && flag){        
+        effect('<img src="https://i.scdn.co/image/ab67616d0000b273a1b3e6738a0dc7deca8d8dbd" alt="Girl in a jacket" >');
     }
 }).mouseover();
 
