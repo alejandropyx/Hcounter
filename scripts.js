@@ -1,5 +1,7 @@
 var flag=true;
 
+console.log("v1.1")
+
 function effect( x){
     flag = false
     $("#eggs").empty();
@@ -28,7 +30,7 @@ $(document).mousemove(function(e) {
     }
 
     if(mouseX>400 && mouseX<500 && mouseY>200 && mouseY<300 && flag){        
-        effect('<img src="http://www.shmee.me/wp-content/uploads/2016/05/captain-america-civil-war-promo-art-fight.jpg" alt="Girl in a jacket" >');
+        effect('<img src="https://cinesite-media-cloud-production.s3-accelerate.amazonaws.com/2016/03/Captain-America-poster-528x787.jpg" alt="Girl in a jacket" >');
     }
     
      if(mouseX>600 && mouseX<700 && mouseY>200 && mouseY<300 && flag){        
