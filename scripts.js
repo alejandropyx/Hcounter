@@ -52,7 +52,7 @@ document.getElementById("now").innerHTML = today.toLocaleDateString();
 document.getElementById("last").innerHTML = last.toLocaleDateString();
 
 
-var countDownDate = new Date("Apr 30, 2022 03:17:00").getTime();
+var countDownDate = new Date("Jan 12, 2023 14:17:00").getTime();
 
 var x = setInterval(function() {
 
