@@ -46,7 +46,7 @@ const day = hour * 24;
 var timeElapsed = Date.now();
 var today = new Date(timeElapsed);
 
-var last = new Date("Apr 30, 2022 03:17:00")
+var last = new Date("Jan 12, 2023 14:17:00")
 
 document.getElementById("now").innerHTML = today.toLocaleDateString();
 document.getElementById("last").innerHTML = last.toLocaleDateString();
